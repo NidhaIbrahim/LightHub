@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "LightHub Phishing Detector",
+  "version": "1.6",
+  "background": { "service_worker": "background.js" },
+  "permissions": ["tabs", "activeTab"],
+  "host_permissions": ["http://127.0.0.1:8000/*"],
+  "content_scripts": [{
+    "matches": ["<all_urls>"],
+    "js": ["content.js"]
+  }],
+  "action": { "default_title": "LightHub Analysis" },
+  "web_accessible_resources": [{
+    "resources": ["background.jpg"],
+    "matches": ["<all_urls>"]
+  }]
+}
