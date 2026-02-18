@@ -4,6 +4,7 @@ certifi==2024.2.2
 cffi==1.16.0
 charset-normalizer==3.3.2
 click==8.3.1
+cloudpickle==3.1.2
 colorama==0.4.6
 cryptography==42.0.5
 defusedxml==0.8.0rc2
@@ -21,9 +22,12 @@ idna==3.6
 itsdangerous==2.2.0
 Jinja2==3.1.6
 joblib==1.5.3
+llvmlite==0.46.0
 MarkupSafe==3.0.3
-numpy==2.4.2
+numba==0.63.1
+numpy==2.3.5
 oauthlib==3.2.2
+packaging==26.0
 pandas==3.0.1
 platformdirs==3.10.0
 psycopg2==2.9.9
@@ -37,11 +41,15 @@ requests==2.31.0
 requests-oauthlib==2.0.0
 scikit-learn==1.8.0
 scipy==1.17.0
+shap==0.50.0
 six==1.17.0
+slicer==0.0.8
 social-auth-app-django==5.4.0
 social-auth-core==4.5.3
 sqlparse==0.4.4
 threadpoolctl==3.6.0
+tqdm==4.67.3
+typing_extensions==4.15.0
 tzdata==2024.1
 urllib3==2.2.1
 virtualenv==20.24.5
